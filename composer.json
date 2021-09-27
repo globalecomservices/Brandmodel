@@ -1,0 +1,27 @@
+{
+    "name": "globalecomservices/module-brandmodel",
+    "description": "Brandmodel",
+    "authors": [
+        {
+            "name": "Globalecom",
+            "email": "mage@globalecom.net"
+        }
+    ],
+    "type": "magento2-module",
+    "version": "2.1.0",
+    "license": [
+        "OSL-3.0"
+    ],
+    "minimum-stability": "dev",
+    "require": {
+   	"php": "^7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Globalecomservices\\Brandmodel\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
